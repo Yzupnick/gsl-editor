@@ -19,7 +19,7 @@ self.MonacoEnvironment = {
 }
 
 let editor = monaco.editor.create(document.getElementById('container'), {
-	value: 'gYNG2$C227Y\n',
+	value: '#refgenome S288C\ngYNG2$C227Y\n',
 });
 
 let compile = () => {
