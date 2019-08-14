@@ -1,0 +1,21 @@
+{
+  "name": "gsl-editor",
+  "version": "1.0.0",
+  "description": "Editor for the Genome Specification Language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
+  },
+  "author": "Chanan Zupnick",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^3.2.0",
+    "monaco-editor": "^0.17.1",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
