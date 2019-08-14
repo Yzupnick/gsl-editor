@@ -10,4 +10,4 @@ RUN npm install
 # Copy the rest of the code
 COPY . .
 
-ENTRYPOINT ['npm', 'run']
+ENTRYPOINT ["/usr/local/bin/npm", "run"]

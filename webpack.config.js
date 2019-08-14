@@ -22,7 +22,8 @@ module.exports = {
 		}]
 	},
 	devServer: {
-		contentBase: path.join(__dirname, 'dist'),
+		index:'index.html',
+		host: '0.0.0.0',
 		port: 8080
 	}
 };
